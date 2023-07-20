@@ -1,0 +1,37 @@
+.data{
+}
+.canvas-container{
+    display: flex;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+.parts-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: auto;
+}
+
+.definition{
+    font-size: 20px;
+    color:var(--color-canvas);
+}
+.metadata-div{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 24%;
+    color: var(--color-canvas);
+}
+.data{
+    font-size: 10px;
+}
+.data-div{
+}
+.a-button{
+    height: 20px;
+}
+.inputhere{
+    height: 20px;
+}

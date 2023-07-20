@@ -1,0 +1,40 @@
+.canvas1{
+    border:1px solid grey;
+    background: var(--color-canvas);
+
+}
+.canvas-div{
+    margin:20px;
+}
+
+.part{
+    z-index: 100;
+}
+.part-text{
+    position: absolute;
+    color: white;
+    transform: translate(20px,20px);
+    font-size: 10px;
+}
+.line{
+    position: absolute;
+    z-index: 50;
+    left: 18px;
+    top:18px;
+}
+.bottomLeft{
+    border-bottom:2px solid var(--color-line);
+    border-right:2px solid var(--color-line);
+}
+.topLeft{
+    border-top:2px solid var(--color-line);
+    border-right:2px solid var(--color-line);
+}
+.bottomRight{
+    border-bottom:2px solid var(--color-line);
+    border-left:2px solid var(--color-line);
+}
+.topRight{
+    border-top:2px solid var(--color-line);
+    border-left:2px solid var(--color-line);
+}
